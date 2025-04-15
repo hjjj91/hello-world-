@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST.1</title>
+    <!--[if lte IE 8]>
+	<script src="js/html5.js"></script>
+	<![endif]-->
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="js/jquery-1.8.3.min.js"></script>
+ 
+</head>
+
+<body>
+    <style>
+        @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+    </style>
+
+
+    <div class="wrap">
+        <span class="date_txt">SINCE 2001</span>
+        <header>
+            <h1><a href=""><img src="images/logo_b.png" alt=""></a></h1>
+            <div class="menu_icon"><a href="">M&nbsp;&nbsp;E<br>N&nbsp;&nbsp;U</a></div>
+            <nav class="gnb">
+                <ul>
+                    <li><a href="#" class="on">HR Consulting</a></li>
+                    <li><a href="#">e-HR Solution</a>
+                        <div class="gnb_list">
+                            <ul>
+                                <li><a href="">hunel</a></li>
+                                <li><a href="">JaDE</a></li>
+                                <li><a href="">Performance Plus</a></li>
+                                <li><a href="">솔루션 특징비교</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Payroll Outsourcing</a></li>
+                    <li><a href="#">About HCG</a>
+                        <div class="gnb_list">
+                            <ul>
+                                <li><a href="">회사소개</a></li>
+                                <li><a href="">HCG Insight</a></li>
+                                <li><a href="">공지사항</a></li>
+                                <li><a href="">주요고객</a></li>
+                                <li><a href="">문의하기</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </nav>
+            <!--gnb-->
+        </header>
+
+
+        <div class="menu_view">
+            <span class="menu_btn"><a href="#none">X</a></span>
+            <span class="menu_logo"><img src="images/logo_foot_b.png" alt=""></span>
+            <ul class="menu_all">
+                <li><a href="">HR <br>Consulting</a>
+                    <div class="menu_list">
+                        <ul>
+                            <li><a href="">성과와 보상관리</a></li>
+                            <li><a href="">조직과 인재관리</a></li>
+                            <li><a href="">기업가치와 문화</a></li>
+                            <li><a href="">HR 트랜스포메이션</a></li>
+                            <li><a href="">디지털 HR 및 데이터 분석</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">e-HR <br>Solution</a>
+                    <div class="menu_list">
+                        <ul>
+                            <li><a href="">hunel</a>
+                                <ul class="menu_inbox">
+                                    <li><a href="#">차별적 강점</a></li>
+                                    <li><a href="#">주요 모듈 및 기능</a></li>
+                                    <li><a href="#">시스템 유지보수</a></li>
+                                    <li><a href="#">주요 고객</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">JaDE</a>
+                                <ul class="menu_inbox">
+                                    <li><a href="">차별적 강점</a></li>
+                                    <li><a href="">주요 모듈 및 기능</a></li>
+                                    <li><a href="">주요 고객</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Performance Plus</a>
+                                <ul class="menu_inbox">
+                                    <li><a href="">차별적 강점</a></li>
+                                    <li><a href="">주요 모듈 및 기능</a></li>
+                                    <li><a href="">주요 고객</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">솔루션 특징비교</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">Payroll <br>Outsourcing</a>
+                    <div class="menu_list">
+                        <ul>
+                            <li><a href="">차별적 강점</a></li>
+                            <li><a href="">주요 서비스</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href=""><br>About HCG</a>
+                    <div class="menu_list">
+                        <ul>
+                            <li><a href="">회사 소개</a>
+                                <ul class="menu_inbox">
+                                    <li><a href="">미션과 전략</a></li>
+                                    <li><a href="">연혁</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">HCG Insight</a></li>
+                            <li><a href="">공지 사항</a></li>
+                            <li><a href="">주요 고객</a></li>
+                            <li><a href="">문의 하기</a>
+                                <ul class="menu_inbox">
+                                    <li><a href="">강남 센터 / 판교 센터</a></li>
+                                    <li><a href="">문의하기</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href=""><br>Careers</a>
+                    <div class="menu_list">
+                        <ul>
+                            <li><a href="">핵심가치</a></li>
+                            <li><a href="">Professional Roles</a></li>
+                            <li><a href="">Work Environment</a></li>
+                            <li><a href="">Join HCG</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--menu_view-->
+
+
+        <div class="content_wrap">
+
+            <div class="content_box1">
+                <section class="main_box">
+                    <h1>HUMAN CONSULTING GROUP</h1>
+                    <p class="tit_txt1"><span>HR Total Solution Provider</span><br>HR 컨설팅, e-HR 솔루션, 급여 아웃소싱 등 HR 가치 사슬의
+                        모든 영역에 걸쳐 통합 서비스를 제공합니다.</p>
+                    <div class="main_list1">
+
+                        <ul>
+                            <li class="list_tit">
+                                <span class="list_txt1">HR 컨설팅</span>
+                                <span class="list_txt2">인적자원 및 조직에 대한 풍부한 경험과 전문성을 기반으로 HR 혁신을 도모하는 고객을 위하여 실질적이고 차별화된
+                                    고품질의 실행방안을 제공합니다.</span>
+                            </li>
+                            <li class="list_tit">
+                                <span class="list_txt1">e-HR 솔루션</span>
+                                <span class="list_txt2">45만 이상의 사용자가 검증한 국내 Top e-HR 솔루션과 새로운 클라우드 서비스를 통하여 고객의 HR 업무
+                                    수행에 효율성을 제고하고 최적의 의사결정을 지원합니다.</span>
+                            </li>
+                            <li class="list_tit">
+                                <span class="list_txt1">급여 아웃소싱</span>
+                                <span class="list_txt2">급여 업무 전문성과 검증된 솔루션을 활용한 안정적이고 정확한 서비스를 통해 고객의 HR 운영 비용 효율화 및
+                                    고부가가치 역할에 집중하도록 지원합니다.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!--main_box-->
+            </div>
+
+            <div class="content_box2">
+                <section class="main_box2">
+                    <span class="slide_icon">
+                        HCG
+                        <br>
+                        컬럼</span>
+                    <div class="slide_con">
+                        <div class="slide_txt_wrap">
+                            <h1>HCG<br>
+                                Insight</h1>
+                            <div class="thumb_txt">
+                                <div class="slide_txt on">
+                                    <p class="slide_tit"><a href="">코로나, 전통적 성과관리에 작별을 고하다</a></p>
+                                    <p class="slide_tit2"><a href="">모두가 예상하듯이 코로나가 끝나도 매일 사무실에 모여 회의하고 보고하는 것이 일상화될
+                                            가능성은 낮다. PwC 조사 어쩌구 저쩌구 뭐라뭐라</a></p>
+                                </div>
+                                <div class="slide_txt">
+                                    <p class="slide_tit"><a href="">국내 기업 구조조정과 HR 대응전략</a></p>
+                                    <p class="slide_tit2"><a href="">조금은 암울한 말이지만 올 한 해 국내 기업들의 화두는 ‘다운사이징(Downsizing)’이
+                                            될 전망이다. 특히 인력의 감쩌구 저쩌구 텍스트텍스트텍스트 텍스트</a></p>
+                                </div>
+                                <div class="slide_txt">
+                                    <p class="slide_tit"><a href="">성과평가와 보상, 그 밀월관계의 끝</a></p>
+                                    <p class="slide_tit2"><a href="">"성과관리의 본령이 목표를 결정하고 관리함으로써 구성원들을 움직이게 만드는데 있다면, 보상의
+                                            텍스트텍스트 텍스트 텍스트 텍스트</a></p>
+                                </div>
+                            </div>
+
+                            <div class="slide_dot">
+                                <a href="#none" class="on"></a>
+                                <a href="#none"></a>
+                                <a href="#none"></a>
+
+                            </div>
+                        </div>
+                        <!--slide_txt_wrap-->
+
+                        <div class="slide_wrap">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <p class="slide_img"><img src="images/thumb1.jpg" alt=""></p>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <p class="slide_img"><img src="images/thumb2.jpg" alt=""></p>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <p class="slide_img"><img src="images/thumb3.jpg" alt=""></p>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                        <!--slide_wrap-->
+                    </div>
+                    <!--slide_con-->
+                </section>
+                <!--main_box2-->
+            </div>
+            <!--content_box2-->
+
+            <div class="content_box3">
+                <section class="con3_box1">
+                    <div class="left_txt">
+                    <span class="tit_bg"><img src="images/embl01.png" alt=""></span>
+                    <h1>HR Consulting</h1>
+                        <h2>New Era HR Innovation Leader</h2>
+                        <p>20여 년간 HR 컨설팅을 선도한 경험과 노하우를 바탕으로<br>
+                            4차 산업혁명과 디지털 혁신 등 도전적인 환경에 직면한 국내 기업들을 위하여<br>
+                            실질적이고 차별화된 HR 혁신 방안을 제공합니다.</p>
+                        <a href="#none" class="view_more"><img src="images/btn_view_more.png" alt="view more"></a>
+                    </div><!--left_txt-->
+                    <div class="bg_box_l">
+                        <img src="images/img_cons.png" alt="">
+                       <img src="images/shape01.png" alt="" class="img_shape">
+                    </div><!--bg_box-->
+                </section>
+                <!--con3_box1-->
+                <section class="con3_box2">
+                    <div class="right_txt">
+                        <span class="tit_bg"><img src="images/embl02.png" alt=""></span>
+                    <h1>hunel😲
+                    <span>휴넬</span>
+                    </h1>
+                        <h2>e-HR Solution <span>Top</span> Brand</h2>
+                        <p>대기업, 공공, 금융, 그룹계열사 통합 및 글로벌 확장 기업을 대상으로<br>
+                            복잡하고 다양한 요구사항을 최적화한 맞춤형 e-HR 솔루션 구축 서비스를 제공합니다.</p>
+                        <a href="#none" class="view_more"><img src="images/btn_view_more.png" alt="view more"></a>
+                    </div>
+                    <div class="bg_box_r">
+                        <span class="img_shape02"><img src="images/shape02.png" alt=""></span>
+                        <img src="images/img_hunel.png" alt="">
+                    </div><!--bg_box-->
+                </section>
+                <!--con3_box2-->
+                <section class="con3_box3">
+                    <div class="left_txt">
+                        <span class="tit_bg"><img src="images/embl03.png" alt=""></span>
+                    <h1>JaDE<span>제이드</span></h1>
+                        <h2>All in One,<br>
+                            Flexible Integration Package</h2>
+                        <p>중견, 강소기업의 효율적인 인사관리를 위하여 합리적인 가격, 높은 유연성 및<br>
+                            최고의 성능이 탑재된 통합 e-HR 패키지를 제공합니다.</p>
+                       <a href="#none" class="view_more"><img src="images/btn_view_more.png" alt="view more"></a>
+                    </div>
+                    <div class="bg_box_l">
+                        <img src="images/img_jade.png" alt="">
+                        <img src="images/shape03.png" alt="" class="img_shape">
+                    </div><!--bg_box-->
+                </section>
+                <!--con3_box3-->
+
+                <section class="con3_box4">
+                    <div class="right_txt">
+                        <span class="tit_bg"><img src="images/embl04.png" alt=""></span>
+                    <h1>Performance
+                        Plus <span>퍼포먼스 플러스</span></h1>
+                        <h2>Cloud Platform for Agile Performance Management</h2>
+                        <p>상시 성과관리 및 애자일 조직운영에 적합한 실질적인 성과향상 도구가 필요한 기업을 위하여
+                            OKR(Objectives & Key Results), 협업, 인정과 피드백 등 성과관리의 최신 트랜드와<br>
+                            베스트 프랙티스가 탑재된 클라우드 서비스를 제공합니다.
+                            </p>
+                        <a href="#none" class="view_more"><img src="images/btn_view_more.png" alt="view more"></a>
+                    </div>
+                    <div class="bg_box_r">
+                        <span class="img_shape04"><img src="images/shape04.png" alt=""></span>
+                        <img src="images/img_perf.png" alt="">
+                    </div><!--bg_box-->
+                </section>
+                <!--con3_box4-->
+                
+                <section class="con3_box5">
+                    <div class="left_txt">
+                        <span class="tit_bg"><img src="images/embl05.png" alt=""></span>
+                    <h1>Payroll
+                        Outsourcing</h1>
+                        <h2>Beyond Outsourcing,<br>
+                            Consourcing= <span>Con</span>sulting+ <span>So</span>lution+Outso<span>urcing</span> </h2>
+                        <p>체계적인 HR 컨설팅 노하우로 다져진 급여 업무 전문성, 인정받은<br>
+                            e-HR 솔루션을 통한 운영 안정성, 적극적이고 선제적인 고객 대응을 통해<br>
+                            프리미엄 급여 아웃소싱 서비스를 제공합니다.</p>
+                        <a href="#none" class="view_more"><img src="images/btn_view_more.png" alt="view more"></a>
+                    </div>
+                    <div class="bg_box_l">
+                        <span class="img_shape05"><img src="images/shape05.png" alt=""></span>
+                        <img src="images/img_pay.png" alt="">
+                    </div><!--bg_box-->
+                </section>
+                <!--con3_box5-->
+
+            </div>
+            <!--content_box3-->
+        </div>
+        <!--content_wrap-->
+
+
+        <div class="footer">
+            <section class="bottom1">
+                <h3>ⓒ Human Consulting Group </h3>
+                <div class="bom_left">
+                    <ul>
+                        <li>강남센터</li>
+                        <li>(06543) 서울시 서초구 사평대로 343, 3층 (반포동, 제일약품빌딩) 02-2194-5000</li>
+                        <li>판교센터</li>
+                        <li>(13493) 경기도 성남시 분당구 판교역로 230, 7층 704호 (삼평동, 삼환하이펙스 B동) 031-8023-9002</li>
+                    </ul>
+                </div>
+                <div class="bom_right">
+                    <span>개인정보 처리방침</span>
+                    <ul>
+                        <li><a href="" class="face">
+                            Facebook</a></li>
+                        <li><a href="" class="insta">
+                            Instagram</a></li>
+                        <li><a href="" class="blog">
+                            JaDE</a></li>
+                        <li><a href="" class="blog">
+                            Payroll</a></li>
+                         <li><a href="" class="blog">
+                            Performance Plus</a></li>
+                    </ul>
+                </div>
+            </section>
+           <div class="bottom2_wrap">
+      <section class="bottom2">
+        <div class="inner"></div>
+      </section>
+      <div class="foot_btn">
+        <h2>HR 전 영역에 걸친 수준 높은 통합 서비스 제공으로 고객의 비즈니스 경쟁력을 강화시킵니다.</h2>
+        <span><a href="">문의하기</a></span>
+      </div>
+      </div>
+       
+
+
+
+    </div>
+    <!--wrap-->
+   
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 'auto',
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            }
+        });
+
+        $(function () {
+            swiper.on('transitionStart', function () {
+                var idx = $('.slide_con .slide_wrap .swiper-pagination-bullet-active').index();
+                $('.slide_con .slide_txt_wrap .slide_dot a').eq(idx).addClass('on').siblings()
+                    .removeClass('on');
+                $('.slide_con .slide_txt_wrap .thumb_txt .slide_txt').eq(idx).addClass('on').siblings()
+                    .removeClass('on');
+            });
+            $('.slide_con .slide_txt_wrap .slide_dot a').click(function () {
+                var idx = $(this).index();
+                $(this).addClass('on').siblings().removeClass('on');
+                $(this).closest('.slide_con').find('.swiper-pagination-bullet').eq(idx).click();
+            });
+
+        });
+
+   
+    </script>
+
+</body>
+
+</html>
